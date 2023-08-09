@@ -4,9 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftTUI",
-    platforms: [
-        .macOS(.v11)
-    ],
     products: [
         .library(
             name: "SwiftTUI",
